@@ -1,13 +1,13 @@
 variable "location" {
-    default = "ap-south-1"
+    default = "us-east-1"
 }
 
 variable "os_name" {
-    default = "ami-09ba48996007c8b50"
+    default = "ami-090e0fc566929d98b"
 }
 
 variable "key" {
-    default = "rtp-03"
+    default = "mobaxt_key"
 }
 
 variable "instance-type" {
@@ -23,5 +23,5 @@ variable "subnet1-cidr" {
   
 }
 variable "subent_az" {
-    default =  "ap-south-1a"  
+    default =  "us-east-1a"  
 }
